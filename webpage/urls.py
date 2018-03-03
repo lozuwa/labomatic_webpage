@@ -9,7 +9,7 @@ urlpatterns = [
   path("", views.index, name="index"),
   # Contact
   path("contact", views.contact, name="contact"),
-  # Thanks 
+  # Thanks
   path("thanks", views.thanks, name="thanks"),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 

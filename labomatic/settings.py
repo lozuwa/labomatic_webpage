@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "1%c@lt@bsm90ru2_2x4qsfl8c6+vl!_0hkq2k5hxb_fqriyu-z"
 
 # SECURITY WARNING: don"t run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # Email stuff
 EMAIL_HOST = "smtp.gmail.com"
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "webpage.apps.WebpageConfig",
+    "dashboard.apps.DashboardConfig",
 ]
 
 MIDDLEWARE = [
