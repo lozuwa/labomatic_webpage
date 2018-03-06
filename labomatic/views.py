@@ -28,13 +28,13 @@ def contact(request):
 			email = form_data["email"]
 			phone = form_data["phone"]
 			message = form_data["message"]
-			print("Form data: {} {} {} [}".format(name, email, phone, message))
+			#print("Form data: {} {} {} [}".format(name, email, phone, message))
 			# Send mail
 			send_mail("LABOMATIC",
 								";".join([name, email, phone, message]),
 								"labomaticAlpha@gmail.com",
 								["labomaticAlpha@gmail.com"],
-								fail_silently=False,)
+								fail_silently=False)
 		# Return a response
 		return HttpResponseRedirect("/thanks")
 	# Load form into webpage
