@@ -22,6 +22,7 @@
     <!-- Custom styles -->
     <link href="/static/labomatic/styles/main.css" rel="stylesheet">
     <link href="/static/labomatic/styles/style.css" rel="stylesheet">
+    <link href="/static/labomatic/styles/animations.css" rel="stylesheet">
 
   </head>
 
@@ -35,10 +36,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#myCarousel">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#norton-presentation">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#norton-presentation">Product</a>
+              <a class="nav-link" href="#norton-characteristics">Product</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#demos">Demos</a>
@@ -53,40 +54,41 @@
 
     <main role="main">
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="first-slide" src="/static/labomatic/images/ascaris_resized.jpg" alt="First slide">
+        <div class="carousel-item active" data-interval="12000">
+          <img class="first-slide" src="/static/labomatic/images/gifs/lab_load.png" alt="First slide">
           <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>Labomatic.</h1>
-              <p>Revolutionizing microscopy diagnostics with Artificial Intelligence.</p>
-              <p><a class="btn btn-lg btn-primary" href="#Features" role="button">Learn more</a></p>
+            <div class="carousel-caption">
+              <h1 class="font-weight-bold">Labomatic.</h1>
+              <p>Revolutionizing microscopy diagnostics with 
+                <span class="font-weight-bold" style="color: #4183D7"> Artificial Intelligence </span>.</p>
+              <p><a class="btn btn-lg btn-primary" href="#norton-presentation" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img class="second-slide" src="/static/labomatic/images/parasites.gif" alt="Second slide">
+        <div class="carousel-item" data-interval="5000">
+          <img class="second-slide" src="/static/labomatic/images/gifs/stool_screening.gif" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Labomatic-Parasite.</h1>
               <p>Diagnose your stools samples in the simplest and most accurate way.</p>
-              <p><a class="btn btn-lg btn-primary" href="#parasiteDemo" role="button">Try our demo</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#demos" role="button">Try our demo</a></p>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img class="third-slide" src="/static/labomatic/images/tuberculosis.gif" alt="Third slide">
+        <div class="carousel-item" data-interval="5000">
+          <img class="third-slide" src="/static/labomatic/images/gifs/tuberculosis_screening.gif" alt="Third slide">
           <div class="container">
-            <div class="carousel-caption text-right">
+            <div class="carousel-caption">
               <h1>Labomatic-Tuberculosis.</h1>
-              <p>Diagnose your pulmonary Tuberculosis samples with the best technology.</p>
-              <p><a class="btn btn-lg btn-primary" href="#tuberculosisDemo" role="button">Try our demo</a></p>
+              <p>Diagnose your pulmonary Tuberculosis samples in the simplest and most accurate way.</p>
+              <p><a class="btn btn-lg btn-primary" href="#demos" role="button">Try our demo</a></p>
             </div>
           </div>
         </div>
@@ -101,18 +103,37 @@
       </a>
     </div>
 
-    <div class="container" id="norton-presentation" style="display: block; max-width: 2100px; height: 825px; background-color: #fff;">
-      <div style="height: 30px;"></div>
+    <div class="container" id="norton-presentation" style="display: block; max-width: 2100px; height: 970px; background-color: #fff;">
+      <div style="height: 100px;"></div>
       <div class="row">
         <div class="col-md-5">
           <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
-              <h5 style="color: #4183D7;" class="font-weight-bold">The future of microscopy diagnostics</h5>
+              <h3 style="color: #4183D7;" class="font-weight-bold">The future of microscopy diagnostics</h3>
               <div style="height: 30px;"></div>
-              <h1 class="text-left font-weight-bold">Norton - a fully automatized microscope that automatically diagnoses stool parasites and pulmonary tuberculosis.</h1>
+              <h1 class="text-left font-weight-bold" style="color: #12111e">Norton - a fully automatic microscope that diagnoses clinical samples</h1>
               <div style="height: 30px;"></div>
-              <p>Forget the expenses and complications of diagnostics at conventional clinical laboratories. Norton makes microscopy diagnostics as simple as pressing a few buttons.</p>
+              <p>Forget the expenses and complications of diagnostics in conventional clinical laboratories. Norton makes microscopy diagnostics as simple as pressing a few buttons.</p>
+              <div style="height: 40px"></div>
+              <table class="visible-lg White Txt15" style="max-width: 450px; width: 100%; position: relative; margin: 0 auto;">
+                <tbody>
+                  <tr>
+                    <td style="text-align:center;width:33%;vertical-align:top;">
+                      <div style="margin-bottom:20px;">
+                        <img src="/static/labomatic/images/icons/ic_bac_128dp.png"/>
+                      </div>
+                      <div style="color: #12111e;">Bacteria recognition</div>
+                    </td>
+                    <td style="text-align:center;width:33%;vertical-align:top;">
+                      <div style="margin-bottom:20px;">
+                        <img src="/static/labomatic/images/icons/ic_par_128dp.png"/>
+                      </div>
+                      <div style="color: #12111e;">Parasite recognition</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="col-sm-1"></div>
           </div>
@@ -120,17 +141,18 @@
         <div class="col-md-7">
           <!-- <img class="img-responsive" src="/static/labomatic/images/norton.jpg" alt="Norton"> -->
           <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oOeZ7IgEN4o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="container" id="norton-characteristics" style="display: block; height: 700px; max-width: 2100px; background-color: #333333;">
+    
+    <div class="container" id="norton-characteristics" style="display: block; height: 970px; max-width: 2100px; background-color: #333333;">
+      <div style="height: 100px;"></div>
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-5">
-          <img class="img-responsive" src="/static/labomatic/images/norton.png" alt="Norton" style="margin-top: 50px;">
+          <img class="img-responsive" src="/static/labomatic/images/norton.png" alt="Norton" style="width: 633px; height: 686px;">
         </div>
         <div class="col-md-5">
           <div class="row">
@@ -139,30 +161,39 @@
               <div style="height: 100px;"></div>
               <h1 style="color: #4183D7;" class="font-weight-bold">Microscopy meets computer vision</h1>
               <div style="height: 40px;"></div>
-              <p style="color: #fff;">Custom hardware, state-of-the-art Artificial Intelligence and cloud computing combined to deliver the best microscopy diagnostics.</p>
-              <div style="height: 20px;"></div>
+              <p style="color: #fff;">
+                Custom hardware, state-of-the-art Artificial Intelligence and cloud computing
+                combined to revolutionize microscopy diagnostics. Welcome to the future of clinical
+                 diagnostics.
+              </p>
+              <div style="height: 40px;"></div>
               <table class="visible-lg White Txt15" style="max-width: 450px; width: 100%; position: relative; margin: 0 auto;">
                 <tbody>
                   <tr>
-                    <td>
+                    <td style="text-align:center;width:33%;height:10%;vertical-align:top;">
                       <div style="margin-bottom:20px;">
-                        <img src="/static/labomatic/images/icon-lab-quality.svg">
+                        <img style="width: 96px; height: 96px;"
+                            src="/static/labomatic/images/icons/ic_hw_128dp.png">
                       </div>
                       <div style="color: #fff;">
-                        <h6>Accurate diagnostics</h6>
+                        <h6>Custom hardware</h6>
                       </div>
                     </td>
-                    <td>
+                    <td style="width: 40px;"></td>
+                    <td style="text-align:center;width:33%;vertical-align:top;">
                       <div style="margin-bottom:20px;">
-                        <img src="/static/labomatic/images/icon-simple.svg"/>
+                        <img style="width: 96px; height: 96px;"
+                                src="/static/labomatic/images/icons/ic_ai_128dp.png"/>
                       </div>
-                      <div style="color: #fff;">Simple to operate</div>
+                      <div style="color: #fff;">Artificial intelligence</div>
                     </td>
-                    <td>
+                    <td style="width: 40px;"></td>
+                    <td style="text-align:center;width:33%;vertical-align:top;">
                       <div style="margin-bottom:20px;">
-                        <img src="/static/labomatic/images/icon-simple.svg"/>
+                        <img style="width: 96px; height: 96px;"
+                                src="/static/labomatic/images/icons/ic_cloud_128dp.png"/>
                       </div>
-                      <div style="color: #fff;">Simple to operate</div>
+                      <div style="color: #fff;">Cloud computing</div>
                     </td>
                   </tr>
                 </tbody>
@@ -173,21 +204,162 @@
         </div>
         <div class="col-md-1"></div>
       </div>
+      <div style="height: 40px;"></div>
+      <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2">
+          <div class="arrow-container bounce">
+            <a href="#norton-pipeline">
+              <img class="arrow-image"
+                 src="/static/labomatic/images/icons/ic_arrow_down_128dp.png">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
     </div>
-
     
-    <!-- Carousel -->
+    <!-- Norton-pipeline -->
     <div id="norton-pipeline" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#norton-pipeline" data-slide-to="0" class="active"></li>
         <li data-target="#norton-pipeline" data-slide-to="1"></li>
+        <li data-target="#norton-pipeline" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="/static/labomatic/images/giardia_resized.jpg" alt="First slide">
+          <img class="first-slide img-responsive" src="/static/labomatic/images/norton_slider.png"
+               alt="First slide" style="padding: 10rem 10rem 10rem 50rem; height: 58rem; background-color: #d4d6d6;">
+          <div class="container">
+            <div class="carousel-caption" style="bottom: 20rem; top: 10rem; left: 15rem;">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h1 class="font-weight-bold text-justify" style="color: #2d8bbe;">Easy to operate</h1>
+                  <div style="height: 40px;"></div>
+                  <p class="text-justify" style="color: #12111e;">
+                    Our custom microscopy slider allows your technical <br>
+                    personnel to perform their best practices as they <br>
+                    always have. <br>
+                  </p>
+                  <ul class="text-left" style="color: #333333;">
+                    <li>Place a slide on top of the slide holder. </li>
+                    <li>Prepare your sample.</li>
+                    <li>Secure the slide with its holder.</li>
+                    <li>Place the slide holder on top of Norton's slider.</li>
+                  </ul>
+                  <div style="height: 40px;"></div>
+                  <table class="visible-lg White Txt15" style="max-width: 450px; width: 100%; position: relative; margin: 0 auto;">
+                    <tbody>
+                      <tr>
+                        <td style="text-align:center;width:33%;height:10%;vertical-align:top;">
+                          <div style="margin-bottom:20px;">
+                            <img style="width: 96px; height: 96px;"
+                                src="/static/labomatic/images/icons/ic_tech_per_128dp.png">
+                          </div>
+                          <div style="color: #333333;">Technical personnel</div>
+                        </td>
+                        <td style="width: 10px;"></td>
+                        <td style="text-align:center;width:33%;vertical-align:top;">
+                          <div style="margin-bottom:20px;">
+                            <img style="width: 96px; height: 96px;"
+                                    src="/static/labomatic/images/icons/ic_cron_128dp.png"/>
+                          </div>
+                          <div style="color: #333333;">Quick preparation</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-sm-6"></div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide" src="/static/labomatic/images/norton.png" alt="Second slide" style="background-color: #333333;">
+          <img class="second-slide" src="/static/labomatic/images/norton_diagram_side.png" alt="Second slide" style="padding: 10rem 10rem 10rem 70rem;background-color: #d4d6d6; min-width: 100%;">
+          <div class="container">
+            <div class="carousel-caption" style="bottom: 20rem; top: 10rem; left: 15rem;">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h1 class="font-weight-bold text-justify" style="color: #2d8bbe;">Digitalization system</h1>
+                  <div style="height: 40px;"></div>
+                  <p class="text-justify" style="color: #12111e;">
+                    Once the sample is inserted into the device,
+                    it is automatically focused and a sweep process
+                    starts. A 18mmx18mm cover-slide is digitized in
+                    under 10 minutes. A third of the time that a human
+                    would take.
+                  </p>
+                  <div style="height: 40px;"></div>
+                  <table class="visible-lg White Txt15" style="max-width: 450px; width: 100%; position: relative; margin: 0 auto;">
+                    <tbody>
+                      <tr>
+                        <td style="text-align:center;width:33%;height:10%;vertical-align:top;">
+                          <div style="margin-bottom:20px;">
+                            <img style="width: 96px; height: 96px;"
+                                src="/static/labomatic/images/icons/ic_focus_128dp.png">
+                          </div>
+                          <div style="color: #333333;">Auto-focus</div>
+                        </td>
+                        <td style="width: 10px;"></td>
+                        <td style="text-align:center;width:33%;vertical-align:top;">
+                          <div style="margin-bottom:20px;">
+                            <img style="width: 96px; height: 96px;"
+                                    src="/static/labomatic/images/icons/ic_hw_black_128dp.png"/>
+                          </div>
+                          <div style="color: #333333;">Automatic sweeping</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-sm-6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide" src="/static/labomatic/images/powerful_analysis.png" alt="Second slide" style="padding: 10rem 10rem 10rem 60rem; height: 58rem; background-color: #d4d6d6; min-width: 100%;">
+          <div class="container">
+            <div class="carousel-caption" style="bottom: 20rem; top: 10rem; left: 15rem;">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h1 class="font-weight-bold text-justify" style="color: #2d8bbe;">Image recognition</h1>
+                  <div style="height: 40px;"></div>
+                  <p class="text-justify" style="color: #12111e;">
+                    The images of the digitized sample are uploaded
+                    to our servers where our specialized
+                    <span class="font-weight-bold">Artificial intelligence</span>
+                    algorithms recognize all your pathological
+                    microorganisms in minutes.
+                  </p>
+                  <div style="height: 40px;"></div>
+                  <table class="visible-lg White Txt15" style="max-width: 450px; width: 100%; position: relative; margin: 0 auto;">
+                    <tbody>
+                      <tr>
+                        <td style="text-align:center;width:33%;height:10%;vertical-align:top;">
+                          <div style="margin-bottom:20px;">
+                            <img style="width: 96px; height: 96px;"
+                                src="/static/labomatic/images/icons/ic_ai_black_128dp.png">
+                          </div>
+                          <div style="color: #333333;">Artificial intelligence</div>
+                        </td>
+                        <td style="width: 10px;"></td>
+                        <td style="text-align:center;width:33%;vertical-align:top;">
+                          <div style="margin-bottom:20px;">
+                            <img style="width: 96px; height: 96px;"
+                                src="/static/labomatic/images/icons/ic_cloud_black_128dp.png">
+                          </div>
+                          <div style="color: #333333;">Cloud computing</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-sm-6"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#norton-pipeline" role="button" data-slide="prev">
@@ -201,54 +373,148 @@
     </div>
 
     <!-- Demos -->
-    <div class="container" id="demos" style="display: block; height: 900px; max-width: 2100px; background-color: #333333;">
-      <div style="height: 40px;"></div>
+    <div class="container" id="demos" style="display: block; height: 1740px; max-width: 2100px; background-color: #fff;">
+      <div style="height: 100px;"></div>
       <div class="row">
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
             <h1 style="color: #4183D7;" class="font-weight-bold">Artificial Intelligence and Computer Vision</h1>
-            <p style="color: #fff;">The following results are just demos. If you want to use our real API, <a href="#contact" style="color: #4183D7;">contact us.</a></p>
-            <div style="height: 20px;"></div>
-            <h2 style="color: #fff;" class="font-weight-bold">Stool parasites</h2>
+            <p style="color: #333333;">The following results are just demos.
+              If you want to use our real API,
+              <a href="#contact" style="color: #4183D7;">contact us.</a></p>
+            <div style="height: 40px;"></div>
         </div>
         <div class="col-sm-1"></div>
       </div>
       <div style="height: 10px;"></div>
       <div class="row">
         <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+          <h2 style="color: #333333;" class="font-weight-bold">Demo 1 - Ascaris lumbricoides</h2>
+        </div>
+      </div>
+      <!-- First example -->
+      <div class="row">
+        <div class="col-sm-1"></div>
         <div class="col-sm-3">
           <div style="height: 40px;"></div>
           <div class="row">
-            <div class="col-sm-1"></div>
+            <div class="col-sm-2"></div>
             <div class="col-sm-10">
-              <!-- Result cards -->
-              <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src="/static/labomatic/images/ascaris_cropped.jpg" alt="Card image cap">
-                  <div class="card-block">
-                    <h4 class="card-title text-justify">Ascaris lumbricoides</h4>
-                    <p class="card-text">Count: 3</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="/static/labomatic/images/ascaris_cropped.jpg" alt="Card image cap">
-                  <div class="card-block">
-                    <h4 class="card-title">Giardia lamblia</h4>
-                    <p class="card-text">Count: 0</p>
-                  </div>
-                </div>
-              </div>
+              <table class="table demo-results" id="demo-ascaris">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Parasite</th>
+                        <th>Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ascaris lumbricoides</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Entamoeba coli</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Giardia lamblia</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
             </div>
-            <div class="col-sm-1"></div>
+            <!-- <div class="col-sm-1"></div> -->
           </div>
         </div>
         <div class="col-sm-1"></div>
         <div class="col-sm-6">
           <figure class="cd-image-container">
-            <img src="/static/labomatic/images/ascaris_resized_diagnosed.jpg" alt="Original Image">
-            <span class="cd-image-label" data-type="original">Diagnosed</span>
+            <img class="img-responsive" src="/static/labomatic/images/ascaris_resized_diagnosed.jpg" alt="Original Image">
+            <span class="cd-image-label" data-type="original">Automatic diagnostic</span>
             <div class="cd-resize-img"> <!-- the resizable image on top -->
-              <img src="/static/labomatic/images/ascaris_resized.jpg" alt="Modified Image">
+              <img class="img-responsive" src="/static/labomatic/images/ascaris_resized.jpg" alt="Modified Image">
+              <span class="cd-image-label" data-type="modified">Original</span>
+            </div>
+            <span class="cd-handle"></span>
+          </figure> <!-- cd-image-container -->
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+
+      <div style="height: 50px;"></div>
+
+      <!-- Down arrow -->
+      <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2">
+          <div class="arrow-container bounce">
+            <a href="#demo-giardia">
+              <img class="arrow-image"
+                 src="/static/labomatic/images/icons/ic_arrow_down_128dp.png">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
+
+      <div id="demo-giardia" style="height: 50px;"></div>
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+          <h2 style="color: #333333;" class="font-weight-bold">Demo 2 - Giardia lamblia</h2>
+        </div>
+      </div>
+
+      <!-- Second example -->
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3">
+          <div style="height: 40px;"></div>
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10">
+              <table class="table demo-results">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Parasite</th>
+                        <th>Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ascaris lumbricoides</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Entamoeba coli</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Giardia lamblia</td>
+                        <td>22</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <!-- <div class="col-sm-1"></div> -->
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-6">
+          <figure class="cd-image-container">
+            <img class="img-responsive" src="/static/labomatic/images/giardia_resized_diagnosed.jpg" alt="Original Image">
+            <span class="cd-image-label" data-type="original">Automatic diagnostic</span>
+            <div class="cd-resize-img"> <!-- the resizable image on top -->
+              <img class="img-responsive" src="/static/labomatic/images/giardia_resized.jpg" alt="Modified Image">
               <span class="cd-image-label" data-type="modified">Original</span>
             </div>
             <span class="cd-handle"></span>
@@ -258,8 +524,8 @@
       </div>
     </div>
       
-    <div class="container" id="contact" style="display: block; height: 500px; max-width: 2100px; background-color: #4183D7;">
-      <div style="height: 80px;"></div>
+    <div class="container" id="contact" style="display: block; height: 900px; max-width: 2100px;">
+      <div style="height: 250px;"></div>
       <div class="row">
         <div class="col-sm-3">
         </div>
@@ -286,7 +552,7 @@
             <div class="row">
               <div class="col-sm-3"></div>
               <div class="col-sm-7">
-                <input class="btn-secondary" style="width: 200px;" type="submit" value="Submit"/>
+                <input class="btn" style="width: 200px; background-color: #fff"; type="submit" value="Submit"/>
               </div>
               <div class="col-sm-2"></div>
             </div>

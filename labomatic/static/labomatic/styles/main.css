@@ -1,4 +1,27 @@
-/* GLOBAL STYLES
+/* Palette 1
+--------------*/
+/*
+#63afae green
+#2d8bbe light blue
+#034f89 dark blue
+#674ea7 purple
+#ff69b4 pink
+*/
+
+/* Palette 2
+---------------*/
+/*
+#12111e Black
+#243065 dark purple
+#32a0d1 light blue
+#9eedfa super light blue
+#d6e6f3 blue white
+*/
+
+/* Import and include 
+----------------------------------*/
+
+/* Global styles
 -------------------------------------------------- */
 body {
   background-color: #fffff7;
@@ -11,7 +34,23 @@ body {
   position: relative;
 }
 
-/* NAVBAR
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Navbar
 --------------------------------------------------*/
 .navbar{
   background-color: #4183D7;
@@ -36,13 +75,13 @@ body {
   color: #fff;
 }
 
-/* MAIN CAROUSEL
+/* Header carousel
 -------------------------------------------------- */
 #myCarousel .carousel {
 }
 
 #myCarousel .carousel-caption {
-  bottom: 20rem;
+  bottom: 3rem;
   z-index: 10;
 }
 
@@ -55,9 +94,21 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  /*min-width: 100%;*/
+  min-width: 100%;
   width: 120rem;
   height: 58rem;
+}
+
+/* Norton-characteristics
+--------------------------------------------------*/
+.arrow-image {
+  display: block;
+  height: 64px;
+  width: 64px;
+}
+
+.arrow-container:hover .image{
+  background-color: #fffff7;
 }
 
 /* Display carousel
@@ -73,18 +124,53 @@ body {
 
 #norton-pipeline .carousel-item {
   height: 58rem;
-  background-color: #777;
+  background-color: #d4d6d6;
 }
 
 #norton-pipeline .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 80%;
-  height: 92rem;
+  min-width: 100%;
+  height: 58rem;
 }
 
-/* RESPONSIVE CSS
+/* Demo
+--------------------------------------------------*/
+
+.demo-results table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+.demo-results thead th {
+    background-color: #4183D7;
+    color: white;
+}
+
+.demo-results tbody td {
+    background-color: #d4d6d6;
+}
+
+.demo-results tr td:first-child,
+tr th:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.demo-results tr td:last-child,
+tr th:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* Footer
+--------------------------------------------------*/
+#contact {
+  background-image: url("footer_lapaz.jpg");
+}
+
+/* Media configuration
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
