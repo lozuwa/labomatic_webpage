@@ -18,7 +18,7 @@
 #d6e6f3 blue white
 */
 
-/* Import and include 
+/* Import and include
 ----------------------------------*/
 
 /* Global styles
@@ -34,22 +34,6 @@ body {
   position: relative;
 }
 
-h1 {
-  font-size: 40px;
-}
-
-h2 {
-  font-size: 32px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-p {
-  font-size: 16px;
-}
-
 /* Navbar
 --------------------------------------------------*/
 .navbar{
@@ -63,7 +47,8 @@ p {
 .navbar .navbar-brand:focus {
     color: #fff;
 }
- Link 
+
+/*Link*/
 .navbar .navbar-nav > li > a {
     color: #fff;
 }
@@ -77,16 +62,7 @@ p {
 
 /* Header carousel
 -------------------------------------------------- */
-#myCarousel .carousel {
-}
-
-#myCarousel .carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
 #myCarousel .carousel-item {
-  height: 58rem;
   background-color: #777;
 }
 
@@ -94,13 +70,21 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  width: 120rem;
-  height: 58rem;
 }
+
+/* Norton-presentation
+--------------------------------------------------*/
+#norton-presentation .container {
+    display: block;
+}
+
 
 /* Norton-characteristics
 --------------------------------------------------*/
+#norton-characteristics .container {
+  display: block;
+}
+
 .arrow-image {
   display: block;
   height: 64px;
@@ -111,32 +95,12 @@ p {
   background-color: #fffff7;
 }
 
-/* Display carousel
--------------------------------------------------- */
-#norton-pipeline .carousel {
-  margin-bottom: 3rem;
-}
-
-#norton-pipeline .carousel-caption {
-  bottom: 20rem;
-  z-index: 10;
-}
-
-#norton-pipeline .carousel-item {
-  height: 58rem;
-  background-color: #d4d6d6;
-}
-
-#norton-pipeline .carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 58rem;
-}
-
-/* Demo
+/* Demos
 --------------------------------------------------*/
+#demos .container {
+    display: block;
+    background-color: #fff;
+}
 
 .demo-results table {
     border-collapse: separate;
@@ -170,17 +134,296 @@ tr th:last-child {
   background-image: url("footer_lapaz.jpg");
 }
 
-/* Media configuration
+#contact .container {
+    display: block;
+}
+
+/* Media configuration (Responsive css)
 -------------------------------------------------- */
 
-@media (min-width: 40em) {
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
+/* Computer screen */
+@media (max-width: 1920px) {
+  h1 {
+  font-size: 40px;
   }
 
-  .featurette-heading {
-    font-size: 50px;
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .separator {
+      height: 100px;
+  }
+
+  .separator-text {
+      height: 40px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 3rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 61rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 61rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 970px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 970px;
+    max-width: 2100px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 20rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 10rem 10rem 10rem 50rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 10rem 10rem 10rem 70rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 10rem 10rem 10rem 60rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 61rem;
+    background-color: #d4d6d6;
+  }
+
+  #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 61rem;
+  }
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1940px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 900px;
+      max-width: 2100px;
+  }
+}
+
+/* Mobile S 320x878 */
+@media (max-width: 320px) {
+  h1 {
+  font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .separator {
+      height: 50px;
+  }
+
+  .separator-text {
+      height: 20px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 1rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 24rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 24rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 1150px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 1300px;
+    max-width: 2100px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 2rem;
+  }
+
+  ul, li {
+      margin: 0;
+      padding: 0;
+      line-height: 50%;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 10rem 10rem 10rem 50rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 10rem 10rem 10rem 70rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 10rem 10rem 10rem 60rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 36rem;
+    background-color: #d4d6d6;
+  }
+
+  /* Images are disabled for this size */
+  /*   #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 45rem;
+  } */
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1550px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 600px;
+      max-width: 2100px;
   }
 }
