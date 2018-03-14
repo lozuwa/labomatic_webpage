@@ -12,34 +12,6 @@ img {
 Main components 
 
 -------------------------------- */
-/*header {
-  position: relative;
-  height: 160px;
-  line-height: 160px;
-  text-align: center;
-}*/
-/*header h1 {
-  font-size: 22px;
-  font-size: 1.375rem;
-  color: #ffffff;
-  font-weight: 300;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}*/
-
-/* This fucks the header
-*/
-/* @media only screen and (min-width: 768px) {
-  header {
-    height: 32px;
-    line-height: 240px;
-  }
-  header h1 {
-    font-size: 32px;
-    font-size: 2rem;
-  }
-} */
-
 .cd-image-container {
   position: relative;
   width: 90%;
@@ -110,6 +82,7 @@ Main components
   right: auto;
   left: 0;
 }
+
 .is-visible .cd-resize-img {
   width: 50%;
   /* bounce in animation of the modified image */

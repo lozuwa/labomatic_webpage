@@ -167,6 +167,10 @@ tr th:last-child {
       height: 40px;
   }
 
+  .separator-contact {
+      height: 350px;
+  }
+
   /* Carousel header */
   #myCarousel .carousel-caption {
     bottom: 3rem;
@@ -282,7 +286,7 @@ tr th:last-child {
 }
 
 /* Mobile S 320x878 */
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   h1 {
   font-size: 32px;
   }
@@ -307,6 +311,10 @@ tr th:last-child {
       height: 20px;
   }
 
+  .separator-contact {
+      height: 50px;
+  }
+
   /* Carousel header */
   #myCarousel .carousel-caption {
     bottom: 1rem;
@@ -329,7 +337,7 @@ tr th:last-child {
   #norton-presentation .container {
     display: block;
     max-width: 2100px;
-    height: 1150px;
+    height: 950px;
     background-color: #fff;
   }
 
@@ -427,3 +435,909 @@ tr th:last-child {
       max-width: 2100px;
   }
 }
+
+/* Mobile M 375x878 */
+@media (min-width: 375px) {
+  h1 {
+  font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .separator {
+      height: 50px;
+  }
+
+  .separator-text {
+      height: 20px;
+  }
+
+  .separator-contact {
+      height: 50px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 1rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 24rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 24rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 930px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 1250px;
+    max-width: 2100px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 2rem;
+  }
+
+  ul, li {
+      margin: 0;
+      padding: 0;
+      line-height: 50%;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 10rem 10rem 10rem 50rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 10rem 10rem 10rem 70rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 10rem 10rem 10rem 60rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 32rem;
+    background-color: #d4d6d6;
+  }
+
+  /* Images are disabled for this size */
+  /*   #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 45rem;
+  } */
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1550px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 600px;
+      max-width: 2100px;
+  }
+}
+
+/* Mobile L 425x878 */
+@media (min-width: 425px) {
+  h1 {
+  font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .separator {
+      height: 60px;
+  }
+
+  .separator-text {
+      height: 40px;
+  }
+
+  .separator-contact {
+      height: 50px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 1rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 36rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 36rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 1030px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 1350px;
+    max-width: 2100px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 2rem;
+  }
+
+  ul, li {
+      margin: 0;
+      padding: 0;
+      line-height: 50%;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 10rem 10rem 10rem 50rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 10rem 10rem 10rem 70rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 10rem 10rem 10rem 60rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 34rem;
+    background-color: #d4d6d6;
+  }
+
+  /* Images are disabled for this size */
+  /*   #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 45rem;
+  } */
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1750px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 700px;
+      max-width: 2100px;
+  }
+}
+
+/* Tablet 768x878 */
+@media (min-width: 768px) {
+  h1 {
+  font-size: 32px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .separator {
+      height: 60px;
+  }
+
+  .separator-text {
+      height: 30px;
+  }
+
+  .separator-contact {
+      height: 200px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 1rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 36rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 36rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 830px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 850px;
+    max-width: 2100px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 2rem;
+  }
+
+  ul, li {
+      margin: 0;
+      padding: 0;
+      line-height: 20%;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 8rem 3rem 8rem 25rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 8rem 5rem 8rem 25rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 5rem 1rem 28rem 25rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 34rem;
+    background-color: #d4d6d6;
+  }
+
+  /* Images are disabled for this size */
+    #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 34rem;
+  }
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1250px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 700px;
+      max-width: 2100px;
+  }
+}
+
+/* Laptop 1024x787 */
+@media (min-width: 1024px) {
+  h1 {
+      font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .separator {
+      height: 60px;
+  }
+
+  .separator-text {
+      height: 30px;
+  }
+
+  .separator-contact {
+      height: 200px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 1rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 36rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 36rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 830px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 890px;
+    max-width: 2100px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 2rem;
+  }
+
+  ul, li {
+      margin: 0;
+      padding: 0;
+      line-height: 20%;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 6rem 3rem 6rem 33rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 6rem 5rem 6rem 35rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 5rem 1rem 28rem 34rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 38rem;
+    background-color: #d4d6d6;
+  }
+
+  /* Images are disabled for this size */
+    #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 38rem;
+  }
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1450px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 700px;
+      max-width: 2100px;
+  }
+}
+
+/* Laptop L 1440x878 */
+@media (min-width: 1440px) {
+  h1 {
+      font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .separator {
+      height: 60px;
+  }
+
+  .separator-text {
+      height: 30px;
+  }
+
+  .separator-contact {
+      height: 280px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 1rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 42rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 42rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 760px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 870px;
+    max-width: 2100px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 7rem;
+  }
+
+  ul, li {
+      margin: 0;
+      padding: 0;
+      line-height: 20%;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 6rem 3rem 6rem 40rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 6rem 3rem 6rem 48rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 5rem 1rem 18rem 48rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 46rem;
+    background-color: #d4d6d6;
+  }
+
+  /* Images are disabled for this size */
+    #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 46rem;
+  }
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1780px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 900px;
+      max-width: 2100px;
+  }
+}
+
+/* Laptop 4K 2560x1254 */
+@media (min-width: 2560px) {
+  h1 {
+      font-size: 80px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 32px;
+  }
+
+  .separator {
+      height: 60px;
+  }
+
+  .separator-text {
+      height: 30px;
+  }
+
+  .separator-contact {
+      height: 400px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 1rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 62rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 62rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 1280px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 890px;
+    max-width: 2560px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 14rem;
+  }
+
+  ul, li {
+      margin: 0;
+      padding: 0;
+      line-height: 20%;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 3rem 3rem 3rem 72rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 6rem 3rem 6rem 82rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 3rem 10rem 3rem 85rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 62rem;
+    background-color: #d4d6d6;
+  }
+
+  #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 62rem;
+  }
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 2080px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 1200px;
+      max-width: 2100px;
+  }
+}
+
