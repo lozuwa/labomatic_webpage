@@ -2,18 +2,14 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/labomatic/static/labomatic/styles/animations.css" line="5" />
-    <bookmark url="file://$PROJECT_DIR$/labomatic/templates/labomatic/index.html" line="31" />
+    <bookmark url="file://$PROJECT_DIR$/labomatic/templates/labomatic/index.html" line="35" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b833a9-549d-4a28-8264-dd9755b3dad8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/labomatic/static/labomatic/images/gifs/lab_load.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/labomatic/static/labomatic/images/gifs/labomatic_load.gif" afterPath="$PROJECT_DIR$/labomatic/static/labomatic/images/gifs/labomatic_load.gif" />
-      <change beforePath="$PROJECT_DIR$/labomatic/static/labomatic/images/gifs/stool_screening.gif" afterPath="$PROJECT_DIR$/labomatic/static/labomatic/images/gifs/stool_screening.gif" />
-      <change beforePath="$PROJECT_DIR$/labomatic/static/labomatic/images/gifs/tuberculosis_screening.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/labomatic/static/labomatic/styles/footer_lapaz.jpg" afterPath="$PROJECT_DIR$/labomatic/static/labomatic/styles/footer_lapaz.jpg" />
       <change beforePath="$PROJECT_DIR$/labomatic/static/labomatic/styles/main.css" afterPath="$PROJECT_DIR$/labomatic/static/labomatic/styles/main.css" />
-      <change beforePath="$PROJECT_DIR$/labomatic/static/labomatic/styles/style.css" afterPath="$PROJECT_DIR$/labomatic/static/labomatic/styles/style.css" />
       <change beforePath="$PROJECT_DIR$/labomatic/templates/labomatic/index.html" afterPath="$PROJECT_DIR$/labomatic/templates/labomatic/index.html" />
+      <change beforePath="$PROJECT_DIR$/webpage/settings.py" afterPath="$PROJECT_DIR$/webpage/settings.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,14 +24,14 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.51482797">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.84458077">
+        <splitter split-orientation="vertical" split-proportion="0.29417774">
           <split-first>
             <leaf>
               <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/labomatic/templates/labomatic/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="432">
-                      <caret line="195" column="50" lean-forward="false" selection-start-line="195" selection-start-column="50" selection-end-line="195" selection-end-column="50" />
+                    <state relative-caret-position="387">
+                      <caret line="485" column="31" lean-forward="false" selection-start-line="485" selection-start-column="31" selection-end-line="485" selection-end-column="31" />
                       <folding>
                         <element signature="n#style#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,6 +58,7 @@
                         <element signature="n#style#0;n#img#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#div#1;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#img#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#div#1;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -110,10 +107,10 @@
                         <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                        <element signature="n#style#0;n#div#7;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                        <element signature="n#style#0;n#h2#0;n#div#1;n#div#8;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#6;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#h2#0;n#div#1;n#div#7;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                        <element signature="n#style#0;n#input#0;n#div#1;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -133,11 +130,21 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/labomatic/static/labomatic/js/main.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="36">
-                      <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="3" />
+                      <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/webpage/settings.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="180">
+                      <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
                       <folding />
                     </state>
                   </provider>
@@ -154,8 +161,8 @@
               <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/labomatic/static/labomatic/styles/main.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="702">
-                      <caret line="1343" column="0" lean-forward="true" selection-start-line="1343" selection-start-column="0" selection-end-line="1343" selection-end-column="0" />
+                    <state relative-caret-position="450">
+                      <caret line="1789" column="37" lean-forward="true" selection-start-line="1789" selection-start-column="37" selection-end-line="1789" selection-end-column="37" />
                       <folding />
                     </state>
                   </provider>
@@ -220,9 +227,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>the future</find>
-      <find>giardia</find>
-      <find>Giardia</find>
       <find>bottom</find>
       <find>revolutionizing</find>
       <find>&lt;div style=&quot;height:</find>
@@ -250,6 +254,9 @@
       <find>resized</find>
       <find>Bacteria</find>
       <find>Cloud computing</find>
+      <find>min-width</find>
+      <find>1800</find>
+      <find>Demo 2</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;separator&quot;&gt;&lt;/div&gt;</replace>
@@ -268,6 +275,7 @@
         <option value="$PROJECT_DIR$/labomatic/static/labomatic/styles/style.css" />
         <option value="$PROJECT_DIR$/labomatic/templates/labomatic/index.html" />
         <option value="$PROJECT_DIR$/labomatic/static/labomatic/styles/main.css" />
+        <option value="$PROJECT_DIR$/webpage/settings.py" />
       </list>
     </option>
   </component>
@@ -552,6 +560,7 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -600,10 +609,10 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#8;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#7;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,6 +694,7 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -733,10 +743,10 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#8;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#7;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -817,18 +827,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labomatic/static/labomatic/js/main.js">
+    <entry file="file://$PROJECT_DIR$/labomatic/static/labomatic/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="450">
+          <caret line="1789" column="37" lean-forward="true" selection-start-line="1789" selection-start-column="37" selection-end-line="1789" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labomatic/templates/labomatic/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="195" column="50" lean-forward="false" selection-start-line="195" selection-start-column="50" selection-end-line="195" selection-end-column="50" />
+        <state relative-caret-position="387">
+          <caret line="485" column="31" lean-forward="false" selection-start-line="485" selection-start-column="31" selection-end-line="485" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -855,6 +865,7 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -903,18 +914,26 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#8;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#7;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labomatic/static/labomatic/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/labomatic/static/labomatic/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="1343" column="0" lean-forward="true" selection-start-line="1343" selection-start-column="0" selection-end-line="1343" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>

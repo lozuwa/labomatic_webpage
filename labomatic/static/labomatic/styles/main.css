@@ -344,7 +344,7 @@ tr th:last-child {
   /* Norton-characteristics */
   #norton-characteristics .container {
     display: block;
-    height: 1300px;
+    height: 1230px;
     max-width: 2100px;
     background-color: #333333;
   }
@@ -393,7 +393,7 @@ tr th:last-child {
   /* Demos */
   #demos .container {
     display: block;
-    height: 1550px;
+    height: 1450px;
     max-width: 2100px;
     background-color: #fff;
   }
@@ -646,7 +646,7 @@ tr th:last-child {
   /* Norton-characteristics */
   #norton-characteristics .container {
     display: block;
-    height: 1350px;
+    height: 1250px;
     max-width: 2100px;
     background-color: #333333;
   }
@@ -735,6 +735,167 @@ tr th:last-child {
       display: block;
       height: 700px;
       max-width: 2100px;
+  }
+}
+
+/* Mobile L 540x878 */
+@media (min-width: 540px) {
+  h1 {
+  font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .separator {
+      height: 60px;
+  }
+
+  .separator-text {
+      height: 40px;
+  }
+
+  .separator-contact {
+      height: 100px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 1rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 36rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 36rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 1230px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 1250px;
+    max-width: 2100px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 2rem;
+  }
+
+  ul, li {
+      margin: 0;
+      padding: 0;
+      line-height: 50%;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 10rem 10rem 10rem 50rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 10rem 10rem 10rem 70rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 10rem 10rem 10rem 60rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 34rem;
+    background-color: #d4d6d6;
+  }
+
+  /* Images are disabled for this size */
+  /*   #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 45rem;
+  } */
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1850px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 810px;
+      max-width: 2100px;
+  }
+}
+
+/* Mobile L 570x878 */
+@media (min-width: 570px) {
+  #demos .container {
+    display: block;
+    height: 1250px;
+    max-width: 2100px;
+    background-color: #fff;
   }
 }
 
@@ -889,6 +1050,66 @@ tr th:last-child {
   }
 }
 
+/* Laptop 800x787 */
+@media (min-width: 800px) {
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 8rem 3rem 8rem 25rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 8rem 5rem 7rem 28rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 5rem 1rem 28rem 28rem;
+  }
+}
+
+/* Laptop 800x787 */
+@media (min-width: 800px) {
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 8rem 3rem 8rem 28rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 8rem 5rem 6.5rem 32rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 5rem 1rem 28rem 28rem;
+  }
+}
+
+/* Laptop 900x787 */
+@media (min-width: 900px) {
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 8rem 3rem 8rem 29rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 8rem 5rem 6.5rem 32rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 5rem 1rem 28rem 30rem;
+  }
+}
+
+/* Laptop 1000x787 */
+@media (min-width: 1000px) {
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 8rem 3rem 8rem 32rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 8rem 5rem 6.5rem 34rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 5rem 1rem 28rem 32rem;
+  }
+}
+
 /* Laptop 1024x787 */
 @media (min-width: 1024px) {
   h1 {
@@ -977,7 +1198,7 @@ tr th:last-child {
   }
 
   #norton-pipeline .carousel-item .norton-analysis {
-      padding: 5rem 1rem 28rem 34rem;
+      padding: 4rem 1rem 25rem 35rem;
   }
 
   #norton-pipeline .carousel-item {
@@ -1040,8 +1261,31 @@ tr th:last-child {
   }
 }
 
-/* Laptop L 1440x878 */
-@media (min-width: 1440px) {
+/* Laptop 1200x787 */
+@media (min-width: 1200px) {
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 7rem 3rem 7rem 36rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 6rem 5rem 6rem 42rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 4rem 1rem 24rem 42rem;
+  }
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1480px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+}
+
+/* Laptop L 1280x878 */
+@media (min-width: 1280px) {
   h1 {
       font-size: 40px;
   }
@@ -1124,11 +1368,193 @@ tr th:last-child {
   }
 
   #norton-pipeline .carousel-item .norton-diagram {
-      padding: 6rem 3rem 6rem 48rem;
+      padding: 6rem 3rem 6rem 44rem;
   }
 
   #norton-pipeline .carousel-item .norton-analysis {
-      padding: 5rem 1rem 18rem 48rem;
+      padding: 4rem 1rem 16rem 40rem;
+  }
+
+  #norton-pipeline .carousel-item {
+    height: 46rem;
+    background-color: #d4d6d6;
+  }
+
+  /* Images are disabled for this size */
+    #norton-pipeline .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 46rem;
+  }
+
+  /* Demos */
+  #demos .container {
+    display: block;
+    height: 1580px;
+    max-width: 2100px;
+    background-color: #fff;
+  }
+
+  .demo-results table {
+      border-collapse: separate;
+      border-spacing: 0 5px;
+  }
+
+  .demo-results thead th {
+      background-color: #4183D7;
+      color: white;
+  }
+
+  .demo-results tbody td {
+      background-color: #d4d6d6;
+  }
+
+  .demo-results tr td:first-child,
+  tr th:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+
+  .demo-results tr td:last-child,
+  tr th:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  /* Footer */
+  #contact {
+    background-image: url("footer_lapaz.jpg");
+  }
+
+  #contact .container {
+      display: block;
+      height: 800px;
+      max-width: 2100px;
+  }
+}
+
+/* Laptop 1300x787 */
+@media (min-width: 1300px) {
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 7rem 3rem 7rem 40rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 6rem 5rem 6rem 48rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 4rem 1rem 15rem 44rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 8.5rem;
+  }
+}
+
+/* Laptop 1300x787 */
+@media (min-width: 1300px) {
+  #demos .container {
+    display: block;
+    max-width: 2100px;
+    height: 1650px;
+    background-color: #fff;
+  }
+}
+
+
+/* Laptop L 1600x878 */
+@media (min-width: 1600px) {
+  h1 {
+      font-size: 46px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .separator {
+      height: 60px;
+  }
+
+  .separator-text {
+      height: 30px;
+  }
+
+  .separator-contact {
+      height: 280px;
+  }
+
+  /* Carousel header */
+  #myCarousel .carousel-caption {
+    bottom: 1rem;
+  }
+
+  #myCarousel .carousel-item {
+    height: 46rem;
+    background-color: #777;
+  }
+
+  #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 46rem;
+  }
+
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 920px;
+    background-color: #fff;
+  }
+
+  /* Norton-characteristics */
+  #norton-characteristics .container {
+    display: block;
+    height: 870px;
+    max-width: 2100px;
+    background-color: #333333;
+  }
+
+  /* Norton-pipeline */
+  #norton-pipeline .carousel {
+    margin-bottom: 3rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    left: 10rem;
+    bottom: 8rem;
+  }
+
+  ul, li {
+      margin: 0;
+      padding: 0;
+      line-height: 20%;
+  }
+
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 4rem 10rem 4rem 40rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 4rem 10rem 4rem 51rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 3rem 8rem 15rem 50rem;
   }
 
   #norton-pipeline .carousel-item {
@@ -1188,6 +1614,36 @@ tr th:last-child {
       display: block;
       height: 900px;
       max-width: 2100px;
+  }
+}
+
+/* Laptop 1300x787 */
+@media (min-width: 1700px) {
+  #norton-pipeline .carousel-item .norton-slider {
+      padding: 4rem 8rem 4rem 42rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-diagram {
+      padding: 4rem 10rem 4rem 55rem;
+  }
+
+  #norton-pipeline .carousel-item .norton-analysis {
+      padding: 2rem 10rem 13rem 52rem;
+  }
+
+  #norton-pipeline .carousel-caption {
+    bottom: 8.5rem;
+  }
+}
+
+/* Laptop 1980x1254 */
+@media (min-width: 1980px) {
+  /* Norton-presentation */
+  #norton-presentation .container {
+    display: block;
+    max-width: 2100px;
+    height: 1050px;
+    background-color: #fff;
   }
 }
 
@@ -1331,7 +1787,8 @@ tr th:last-child {
 
   /* Footer */
   #contact {
-    background-image: url("footer_lapaz.jpg");
+      background-image: url("footer_lapaz.jpg");
+      width: 100%;
   }
 
   #contact .container {
