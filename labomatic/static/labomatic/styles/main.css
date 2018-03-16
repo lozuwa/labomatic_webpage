@@ -969,6 +969,7 @@ tr th:last-child {
   }
 
   #norton-pipeline .carousel-caption {
+    left: 4rem;
     bottom: 2rem;
   }
 
@@ -979,15 +980,15 @@ tr th:last-child {
   }
 
   #norton-pipeline .carousel-item .norton-slider {
-      padding: 8rem 3rem 8rem 25rem;
+      padding: 8rem 3rem 8rem 22rem;
   }
 
   #norton-pipeline .carousel-item .norton-diagram {
-      padding: 8rem 5rem 8rem 25rem;
+      padding: 8rem 5rem 8rem 24rem;
   }
 
   #norton-pipeline .carousel-item .norton-analysis {
-      padding: 5rem 1rem 28rem 25rem;
+      padding: 5rem 1rem 28rem 23rem;
   }
 
   #norton-pipeline .carousel-item {
@@ -1057,26 +1058,11 @@ tr th:last-child {
   }
 
   #norton-pipeline .carousel-item .norton-diagram {
-      padding: 8rem 5rem 7rem 28rem;
+      padding: 8rem 5rem 6.5rem 28rem;
   }
 
   #norton-pipeline .carousel-item .norton-analysis {
-      padding: 5rem 1rem 28rem 28rem;
-  }
-}
-
-/* Laptop 800x787 */
-@media (min-width: 800px) {
-  #norton-pipeline .carousel-item .norton-slider {
-      padding: 8rem 3rem 8rem 28rem;
-  }
-
-  #norton-pipeline .carousel-item .norton-diagram {
-      padding: 8rem 5rem 6.5rem 32rem;
-  }
-
-  #norton-pipeline .carousel-item .norton-analysis {
-      padding: 5rem 1rem 28rem 28rem;
+      padding: 5rem 1rem 28rem 26rem;
   }
 }
 
@@ -1797,4 +1783,3 @@ tr th:last-child {
       max-width: 2100px;
   }
 }
-
