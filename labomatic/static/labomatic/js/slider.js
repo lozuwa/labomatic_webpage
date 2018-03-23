@@ -79,6 +79,7 @@ jQuery(document).ready(function($){
             });
             e.preventDefault();
         }).on("mouseup vmouseup", function(e) {
+
             dragElement.removeClass('draggable');
             resizeElement.removeClass('resizable');
         });
@@ -94,8 +95,14 @@ jQuery(document).ready(function($){
         }
 
         var widthValue = (leftValue + dragWidth/2 - containerOffset)*100/containerWidth+'%';
-        
+        // Width value tells the position of the handler
+        // console.log("Width value ", widthvalue);
+
         $('.draggable').css('left', widthValue).on("mouseup vmouseup", function() {
+//             console.log("Width value: ", widthValue);
+            //Update table value
+//             $('#ascaris-count-1').html(2);
+
             $(this).removeClass('draggable');
             resizeElement.removeClass('resizable');
         });
