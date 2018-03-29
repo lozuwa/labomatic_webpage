@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "f+8$uo(z0=v8n*2zrrb1*#2uu^_=yl@s)9hl0kzusj812^s+n@"
 
 # SECURITY WARNING: don"t run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ###
-ALLOWED_HOSTS = ["labomatic-ai-webpage.herokuapp.com"]
+ALLOWED_HOSTS = [] #["labomatic-ai-webpage.herokuapp.com"]
                 #"127.0.0.1:8000"]
 
 # Application definition
